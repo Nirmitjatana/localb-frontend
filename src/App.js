@@ -1,15 +1,18 @@
 import Navbar from './navbar';
 import './App.css';
+// import Home from './home';
 import Explore from './explore';
-import Home from './home';
+// import FAQ from './faq'
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div style={{float:"right"}}>
+      <div className="components">
+        {/* <Home/> */}
         <Explore/>
-        <Home/>
+        {/* <FAQ/> */}
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import location from './Assets/location.png'
 
 class Explore extends React.Component{
     constructor(props) {
@@ -10,8 +11,15 @@ class Explore extends React.Component{
       }
       render() {
         return(
-          <div>
-              Explore
+          <div className="explore">
+              <h1>You are in Patiala</h1>
+              <button className="change">
+                <span>
+                  <img src={location} alt="location" className="location"/>
+                </span>
+                Change location
+              </button>
+              <h2>Near You</h2>
           </div>
               )
       }

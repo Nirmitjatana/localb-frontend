@@ -1,38 +1,67 @@
-.App {
+.navbar{
+  background-color: white;
+  height: 100vh;
+  width:30%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  position: fixed;
+  /* box-shadow: 0px 0px 25px 0px #000000e1; */
   text-align: center;
+  box-shadow: 0px 9px 99px rgba(0, 0, 0, 0.16), 0px 4.47158px 45.8993px rgba(0, 0, 0, 0.109469), 0px 2.69338px 27.3267px rgba(0, 0, 0, 0.0876514), 0px 1.64233px 17.0815px rgba(0, 0, 0, 0.0703366), 0px 0.936753px 10.1546px rgba(0, 0, 0, 0.0525205), 0px 0.418089px 4.73652px rgba(0, 0, 0, 0.0306863);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width:160px;
+  margin-top: 8vh;
+  /* position: relative; */
+  /* border-color: blue;
+  border-style: solid; */
+  /* margin: 10px auto; */
+  /* width: 100%; */
+  /* text-align: center; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.options{
+  margin: 50px auto;
+  /* margin-bottom: 60px; */
+  /* border-color: blue;
+  border-style: solid; */
+  text-align: left;
+  width:80%;
+  /* padding-left: 100px; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addbutton{
+  background-color: #EF233C;
+  border-style: none;
+  padding: 15px 60px;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 20px; */
+  font-weight: 400;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 25px 0px #000000e1; */
+  box-shadow: 0px 75px 186px rgba(239, 35, 60, 0.14), 0px 31.3332px 77.7064px rgba(239, 35, 60, 0.10064), 0px 16.7522px 41.5455px rgba(239, 35, 60, 0.083455), 0px 9.39116px 23.2901px rgba(239, 35, 60, 0.07), 0px 4.98758px 12.3692px rgba(239, 35, 60, 0.056545), 0px 2.07544px 5.1471px rgba(239, 35, 60, 0.0393604);
+  cursor: pointer;
+  outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.plus{
+  width:14px;
+  margin-right: 10px;
+  margin-bottom: -2.5px;
+  
+  /* box-shadow: 0px 75px 186px rgba(239, 35, 60, 0.14), 0px 31.3332px 77.7064px rgba(239, 35, 60, 0.10064), 0px 16.7522px 41.5455px rgba(239, 35, 60, 0.083455), 0px 9.39116px 23.2901px rgba(239, 35, 60, 0.07), 0px 4.98758px 12.3692px rgba(239, 35, 60, 0.056545), 0px 2.07544px 5.1471px rgba(239, 35, 60, 0.0393604); */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitle{
+  margin-top: -15px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.tab{
+  opacity: 50%;
+  cursor: pointer;
+}
+.tab-active{
+  cursor: pointer;
+}
+.icon{
+  padding: 20px;
+  width:24px;
 }

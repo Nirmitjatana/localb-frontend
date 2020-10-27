@@ -107,3 +107,10 @@
   cursor: pointer;
   outline: none;
 }
+.search{
+  width:85%;
+  /* text-align: right; */
+  /* border-color: blue;
+  border-style: solid; */
+  margin: 40px 0px;
+}

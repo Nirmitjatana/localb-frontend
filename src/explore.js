@@ -21,8 +21,14 @@ class Explore extends React.Component{
               </button>
               <h2>Near You</h2>
               <h4 className="subtext">Find and explore local businesses near you.</h4>
+              <div className="search">
+                searchbox
+              </div>
               <h2>All Listings</h2>
               <h4 className="subtext">Find the local business you are looking for.</h4>
+              <div className="search">
+                searchbox
+              </div>
           </div>
               )
       }

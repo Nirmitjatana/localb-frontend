@@ -20,6 +20,9 @@ class Explore extends React.Component{
                 Change location
               </button>
               <h2>Near You</h2>
+              <h4 className="subtext">Find and explore local businesses near you.</h4>
+              <h2>All Listings</h2>
+              <h4 className="subtext">Find the local business you are looking for.</h4>
           </div>
               )
       }

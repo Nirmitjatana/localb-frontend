@@ -17,7 +17,7 @@ class Navbar extends React.Component{
           <div className="navbar">
               <img src={logo} alt="logo" className="logo"/>
               <div className="options">
-                  <div className="tab-active">
+                  <div className="tab">
                       <table>
                       <tbody>
                       <tr>
@@ -33,7 +33,7 @@ class Navbar extends React.Component{
                       </table>
                       
                   </div>
-                  <div className="tab">
+                  <div className="tab-active">
                   <table>
                   <tbody>
                       <tr>

@@ -2,7 +2,8 @@ import Navbar from './navbar';
 import './App.css';
 // import Home from './home';
 import Explore from './explore';
-// import FAQ from './faq'
+// import FAQ from './faq';
+// import Add from './add';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         {/* <Home/> */}
         <Explore/>
         {/* <FAQ/> */}
+        {/* <Add/> */}
       </div>
     </div>
   );

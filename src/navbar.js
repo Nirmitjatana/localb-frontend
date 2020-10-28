@@ -33,7 +33,7 @@ class Navbar extends React.Component{
                       </table>
                       
                   </div>
-                  <div className="tab-active">
+                  <div className="tab">
                   <table>
                   <tbody>
                       <tr>

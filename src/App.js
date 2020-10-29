@@ -1,9 +1,9 @@
 import Navbar from './navbar';
 import './App.css';
 // import Home from './home';
-import Explore from './explore';
+// import Explore from './explore';
 // import FAQ from './faq';
-// import Add from './add';
+import Add from './add';
 
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
       <Navbar/>
       <div className="components">
         {/* <Home/> */}
-        <Explore/>
+        {/* <Explore/> */}
         {/* <FAQ/> */}
-        {/* <Add/> */}
+        <Add/>
       </div>
     </div>
   );

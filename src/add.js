@@ -1,5 +1,6 @@
 import React from 'react';
 import pen from './Assets/pen.png';
+import mark from './Assets/mark.png';
 
 class Add extends React.Component{
     constructor(props) {
@@ -46,11 +47,76 @@ class Add extends React.Component{
               <br/>
               <label for="Description">Description</label><span style={{color:"red"}}>*</span>
               <br/>
-              <input type="textarea" name="Description" id="Description" className="text-des" placeholder="Enter a short description of the business" required/>
+              <input type="text-area" name="Description" id="Description" className="text-des" placeholder="Enter a short description of the business" required/>
               <br/>
               <br/>
               <br/>
-              
+              <label for="type">Type</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <select name="type" id="type" className="dropdown">
+                <option value="food">Food</option>
+                <option value="clothing">Clothing</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+              <br/>
+              <br/>
+              <br/>
+              <label for="location">Location</label><span style={{color:"red"}}>*</span>
+              <br/>
+              {/* <span> */}
+              <input type="text" name="location" id="location" className="text-input" placeholder="Enter location"/>
+              <span style={{color:"grey",padding:"20px"}}>or</span>
+              <button className="change">
+                <span>
+                  <img src={mark} alt="location" className="plus"/>
+                </span>
+                Change location
+              </button>
+              <br/>
+              <br/>
+              <br/>
+              <h1>Contact Information</h1>
+              <h4 className="subtext1">Enter your personal details for verification. These details will not be mentioned in the listing.</h4>
+              <label for="Namep">Name</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text" name="Namep" id="Namep" className="text-input" placeholder="Enter your full name" required/>
+              <br/>
+              <br/>
+              <br/>
+              <label for="Numberp">Phone Number</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text" name="Numberp" id="Numberp" className="text-input" placeholder="Enter your phone number" required/>
+              <br/>
+              <br/>
+              <br/>
+              <label for="email">Email</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text" name="email" id="email" className="text-input" placeholder="Enter your email address" required/>
+              <br/>
+              <br/>
+              <br/>
+              <h1>Social Media Reference</h1>
+              <h4 className="subtext1">Enter the details of the social media reference you saw that made you add this business to our platform.</h4>
+              <label for="Name">Name</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text" name="Name" id="Name" className="text-input" placeholder="Enter the registered name of the business" required/>
+              <br/>
+              <br/>
+              <br/>
+              <label for="Number">Phone Number</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text" name="Number" id="Number" className="text-input" placeholder="Enter the phone number" required/>
+              <br/>
+              <br/>
+              <br/>
+              <label for="Description">Description</label><span style={{color:"red"}}>*</span>
+              <br/>
+              <input type="text-area" name="Description" id="Description" className="text-des" placeholder="Enter a short description of the business" required/>
+              <br/>
+              <br/>
+              <br/>
+              {/* </span> */}
             </form>
           </div>
               )
